@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title> Mas informacion </title>
+		<style>
+			body{
+				background-image: url(../Imagenes/Fondo2.jpg);
+				background-attachment: fixed;
+				background-size: contain;
+				margin-top: 2cm;
+			}
+			
+			ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+					background-color: rgb(0, 0, 102);
+					position: fixed;
+					top: 0;
+					width: 100%;
+			}
+
+			li {
+					float: left;
+					font-family: Verdana;
+			}
+
+			li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+					font-family: Verdana;
+			}
+
+			li a:hover:not(.active) {
+					background-color: rgb(0, 61, 153);
+					font-family: Verdana;
+			}
+
+			.active {
+					background-color: rgb(0, 51, 102);
+					font-family: Verdana;
+			}
+			
+			h1{
+				color:white;
+				font-family: Verdana;
+				text-align: center;
+			}
+			
+			h2{
+				color: white;
+				font-family:Lucida console;
+				text-align: center;
+			}
+			div {
+			
+				background-color: black;
+				width: 500px;
+				padding: 20px;
+				margin: 0 auto;
+				margin-top: 0 auto;
+				border-color: aqua;
+			}
+			
+			img{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.p1{
+				text-align: center;
+				font-size: 22px;
+				font-family:Verdana;
+			}
+			
+			.div2{
+				background-color: rgb(0, 0, 102);
+			}
+			
+			.button {
+				background-color: #8c8c8c;
+				border-radius: 8px;
+				color: black;
+				padding: 10px;
+				text-align: center;
+				border: 2px solid black;
+				display: inline-block;
+				font-size: 14px;
+				margin: 4px 2px;
+				cursor: pointer;
+				-webkit-transition-duration: 0.4s; /* Safari */
+				transition-duration: 0.4s;
+				text-decoration: none;
+			}
+			
+			.button:hover {
+				background-color: #f2f2f2;
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a	 href="Contactos.html">Contactos</a></li>
+			<li><a href="Agregar contacto.html">Agregar contacto</a></li>
+			<li style="float:right"><a class="active" href="../Inicio.html">Cerrar sesion</a></li>
+			<li><a href="Perfil del usuario.html">Perfil del usuario</a></li>
+		</ul>
+		<div>
+			<h1> Informacion del contacto </h1>		
+			<img src="../Imagenes/FotoPerfilVacia.png" alt="Foto de perfil" style="alt:300px;width:200px;border-color:white;" border="5" >
+
+			<p style="text-align:center;font-size:22px;font-family:verdana;background-color:black;color:white;"> José Alejandro Ramírez Castañeda </p>
+			<p style="text-align:center;font-size:22px;font-family:verdana;background-color:black;color:white;"> +502 3340-6372 </p>
+			<p style="text-align:center;font-size:22px;font-family:verdana;background-color:black;color:white;"> +502 2448-0853 </p>
+			<p style="text-align:center;font-size:22px;font-family:verdana;background-color:black;color:white;"> aleram2002@gmail.com</p>
+			<hr>
+			<p class="button">Modificar datos</p>
+		</div>
+	<body>
+
+</html>
